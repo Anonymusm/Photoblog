@@ -3,51 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Lesson 7</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">LIFESTYLE </a></li>
-          <li><a href="#">PHOTODIARY</a></li>
-          <li><a href="#">MUSIC</a></li>
-          <li><a href="#">TRAVEL</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">LIFESTYLE </a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">PHOTODIARY</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">MUSIC</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">TRAVEL</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <ul
-          style="
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            list-style-type: none;
-          "
-        >
-          <li style="width: 400px">
-            <article>
+      <section class="gallery">
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <article class="gallery-box">
               <img
                 src="./images/photoblog_img1.jpg"
                 alt="Girl on the festival"
                 width="420"
+                class="gallery-img"
               />
-              <p>LIFESTYLE</p>
-              <h2>More than just a music festival</h2>
-              <p>
+              <p class="gallery-text">LIFESTYLE</p>
+              <h2 class="gallery-title">More than just a music festival</h2>
+              <p class="gallery-info">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
                 et inventore ea quas voluptatibus quae eius, officia deleniti
                 eligendi porro cumque quam!
               </p>
             </article>
           </li>
-          <li style="width: 400px">
-            <article>
-              <img src="./images/photoblog_img2.jpg" alt="cofee" width="420" />
-              <p>LIFESTYLE</p>
-              <h2>Life tastes better with coffee</h2>
-              <p>
+          <li class="gallery-item">
+            <article class="gallery-box">
+              <img
+                src="./images/photoblog_img2.jpg"
+                alt="cofee"
+                width="420"
+                class="gallery-img"
+              />
+              <p class="gallery-text">LIFESTYLE</p>
+              <h2 class="gallery-title">Life tastes better with coffee</h2>
+              <p class="gallery-info">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
                 et inventore ea quas voluptatibus quae eius, officia deleniti
                 eligendi porro cumque quam!
@@ -56,41 +64,33 @@
           </li>
         </ul>
 
-        <ul
-          style="
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            list-style-type: none;
-          "
-        >
-          <li style="width: 400px">
-            <article>
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <article class="gallery-box">
               <img
                 src="./images/photoblog_img3.jpg"
                 alt="two girls"
-                width="420"
+                class="gallery-img"
               />
-              <p>PHOTODIARY</p>
-              <h2>American dream</h2>
-              <p>
+              <p class="gallery-text">PHOTODIARY</p>
+              <h2 class="gallery-title">American dream</h2>
+              <p class="gallery-info">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
                 et inventore ea quas voluptatibus quae eius, officia deleniti
                 eligendi porro cumque quam!
               </p>
             </article>
           </li>
-          <li style="width: 400px">
-            <article>
+          <li class="gallery-item">
+            <article class="gallery-box">
               <img
                 src="./images/photoblog_img4.jpg"
                 alt="Explorning the Alps"
-                width="420"
-                height="280"
+                class="gallery-img"
               />
-              <p>PHOTODIARY</p>
-              <h2>A day exploring the Alps</h2>
-              <p>
+              <p class="gallery-text">PHOTODIARY</p>
+              <h2 class="gallery-title">A day exploring the Alps</h2>
+              <p class="gallery-info">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
                 et inventore ea quas voluptatibus quae eius, officia deleniti
                 eligendi porro cumque quam!
@@ -99,42 +99,33 @@
           </li>
         </ul>
 
-        <ul
-          style="
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            list-style-type: none;
-          "
-        >
-          <li style="width: 400px">
-            <article>
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <article class="gallery-box">
               <img
                 src="./images/photoblog_img5.jpg"
                 alt="Top 10 song for running"
-                width="420"
-                height="280"
+                class="gallery-img"
               />
-              <p>LIFESTYLE</p>
-              <h2>Top 10 song for running</h2>
-              <p>
+              <p class="gallery-text">LIFESTYLE</p>
+              <h2 class="gallery-title">Top 10 song for running</h2>
+              <p class="gallery-info">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
                 et inventore ea quas voluptatibus quae eius, officia deleniti
                 eligendi porro cumque quam!
               </p>
             </article>
           </li>
-          <li style="width: 400px">
-            <article>
+          <li class="gallery-item">
+            <article class="gallery-box">
               <img
                 src="./images/photoblog_img6.jpg"
                 alt="Cold winter"
-                width="419"
-                height="280"
+                class="gallery-img"
               />
-              <p>LIFESTYLE</p>
-              <h2>Cold winter days</h2>
-              <p>
+              <p class="gallery-text">LIFESTYLE</p>
+              <h2 class="gallery-title">Cold winter days</h2>
+              <p class="gallery-info">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
                 et inventore ea quas voluptatibus quae eius, officia deleniti
                 eligendi porro cumque quam!
@@ -143,9 +134,7 @@
           </li>
         </ul>
 
-        <button type="button" style="height: 60px; width: 165px">
-          Load more
-        </button>
+        <button type="button" class="gallery-btn">Load more</button>
       </section>
     </main>
   </body>
