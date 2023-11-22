@@ -11,15 +11,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
 
@@ -29,7 +24,7 @@
     <header class="header">
       <div class="container">
         <nav class="navigation">
-          <ul class="navigation-list list">
+          <ul class="navigation-list">
             <li class="navigation-item">
               <a href="#" class="navigation-link">LIFESTYLE </a>
             </li>
@@ -49,11 +44,12 @@
     <main>
       <section class="gallery">
         <div class="container">
-          <ul class="gallery-list list">
+          <h2 class="visually-hidden">Gallery</h2>
+          <ul class="gallery-list">
             <li class="gallery-item">
               <article class="gallery-box">
                 <img
-                  src="./images/photoblog_img1.jpg"
+                  src="./images/festival.jpg"
                   alt="Girl on the festival"
                   class="gallery-img"
                 />
@@ -69,7 +65,7 @@
             <li class="gallery-item">
               <article class="gallery-box">
                 <img
-                  src="./images/photoblog_img2.jpg"
+                  src="./images/coffee.jpg"
                   alt="cofee"
                   class="gallery-img"
                 />
@@ -82,13 +78,11 @@
                 </p>
               </article>
             </li>
-          </ul>
 
-          <ul class="gallery-list list">
             <li class="gallery-item">
               <article class="gallery-box">
                 <img
-                  src="./images/photoblog_img3.jpg"
+                  src="./images/girl.jpg"
                   alt="two girls"
                   class="gallery-img"
                 />
@@ -104,7 +98,7 @@
             <li class="gallery-item">
               <article class="gallery-box">
                 <img
-                  src="./images/photoblog_img4.jpg"
+                  src="./images/alps.jpg"
                   alt="Explorning the Alps"
                   class="gallery-img"
                 />
@@ -117,13 +111,11 @@
                 </p>
               </article>
             </li>
-          </ul>
 
-          <ul class="gallery-list list">
             <li class="gallery-item">
               <article class="gallery-box">
                 <img
-                  src="./images/photoblog_img5.jpg"
+                  src="./images/song.jpg"
                   alt="Top 10 song for running"
                   class="gallery-img"
                 />
@@ -139,7 +131,7 @@
             <li class="gallery-item">
               <article class="gallery-box">
                 <img
-                  src="./images/photoblog_img6.jpg"
+                  src="./images/cold-winter.jpg"
                   alt="Cold winter"
                   class="gallery-img"
                 />
@@ -153,8 +145,9 @@
               </article>
             </li>
           </ul>
-
+          <div class="btn-wrapper">
           <button type="button" class="gallery-btn">Load more</button>
+        </div>
         </div>
       </section>
     </main>
